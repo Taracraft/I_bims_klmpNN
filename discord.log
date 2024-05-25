@@ -1,0 +1,82 @@
+[2024-05-25 21:48:03] [DEBUG   ] discord.client: status_task has successfully been registered as an event
+[2024-05-25 21:48:03] [DEBUG   ] discord.client: on_raw_reaction_add has successfully been registered as an event
+[2024-05-25 21:48:03] [DEBUG   ] discord.client: on_raw_reaction_remove has successfully been registered as an event
+[2024-05-25 21:48:03] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2024-05-25 21:48:03] [INFO    ] discord.client: logging in using static token
+[2024-05-25 21:48:04] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5e50a66a00f91febcfd210084791d7d4).
+[2024-05-25 21:48:07] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 49, in on_raw_reaction_add
+    await member.add_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 21:48:07] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 46, in on_raw_reaction_add
+    await member.add_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 21:48:07] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 52, in on_raw_reaction_add
+    await member.add_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+                                 ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+[2024-05-25 21:48:14] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 49, in on_raw_reaction_add
+    await member.add_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 21:48:31] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_remove
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 75, in on_raw_reaction_remove
+    await member.remove_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1096, in remove_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 21:48:32] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 46, in on_raw_reaction_add
+    await member.add_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1051, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 21:48:36] [ERROR   ] discord.client: Ignoring exception in on_raw_reaction_remove
+Traceback (most recent call last):
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\rollen.py", line 72, in on_raw_reaction_remove
+    await member.remove_roles(role)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\member.py", line 1096, in remove_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
