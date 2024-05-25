@@ -3,7 +3,17 @@ import asyncio
 import logging.handlers
 import discord
 from discord.utils import get
+
+#Token einfügen
 token = ''
+##################################
+#AB HIER NICHTS MEHR ÄNDERN
+##################################
+
+
+
+
+
 intents = discord.Intents.all()
 intents.members = True
 intents.messages = True
