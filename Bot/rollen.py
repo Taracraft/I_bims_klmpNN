@@ -3,6 +3,7 @@ import asyncio
 import logging.handlers
 import discord
 from discord.utils import get
+token = ''
 intents = discord.Intents.all()
 intents.members = True
 intents.messages = True
@@ -115,5 +116,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-client.run('')
+if token == (''):
+    print("Token clear")
+    exit()
+else:
+    client.run(token)

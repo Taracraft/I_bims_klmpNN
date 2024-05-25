@@ -80,3 +80,4 @@ Traceback (most recent call last):
   File "F:\Eigene\Documents\GitHub\I_bims_klmpNN\.venv\Lib\site-packages\discord\http.py", line 739, in request
     raise Forbidden(response, data)
 discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+[2024-05-25 22:16:50] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5e50a66a00f91febcfd210084791d7d4.
